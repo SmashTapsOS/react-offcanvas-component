@@ -60,7 +60,7 @@ function SidebarWrapper({
   );
 
   const props = {
-    className: `${classNames.wrapper}${className ? " " + className : ""}`,
+    className: `${classNames.wrapper} ${className}`,
     pose: open ? "open" : "close",
     style,
     open: updatedOpenAnimation,
