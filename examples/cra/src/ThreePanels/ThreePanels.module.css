@@ -1,0 +1,64 @@
+.wrapper {
+  width: 460px;
+  padding-left: 50px;
+  background: #2a2a4e;
+  -webkit-box-shadow: 10px 0px 5px -7px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 10px 0px 5px -7px rgba(0, 0, 0, 0.32);
+  box-shadow: 10px 0px 5px -7px rgba(0, 0, 0, 0.32);
+}
+.panelMid {
+  width: 390px;
+  background: #1da6ff;
+  -webkit-box-shadow: 10px 0px 5px -7px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 10px 0px 5px -7px rgba(0, 0, 0, 0.32);
+  box-shadow: 10px 0px 5px -7px rgba(0, 0, 0, 0.32);
+}
+.panelTop {
+  background: #ff5964;
+  width: 370px;
+  padding-left: 60px;
+  -webkit-box-shadow: 10px 0px 5px -7px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 10px 0px 5px -7px rgba(0, 0, 0, 0.32);
+  box-shadow: 10px 0px 5px -7px rgba(0, 0, 0, 0.32);
+}
+.menu > div {
+  background: #fff;
+  margin-top: 20px;
+  width: 280px;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #2f2829;
+}
+.menu > div > svg {
+  color: #797979;
+  position: relative;
+  left: -2px;
+  font-size: 12px;
+}
+.settingsPanel {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 20px;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #fff;
+}
+.settingsPanel > svg {
+  cursor: pointer;
+}
+.dropdown > div {
+  padding-left: 30px;
+  background: #ece7e7;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px;
+}
+.dropdownIcon {
+  top: 10px;
+  right: 10px;
+}

@@ -1,0 +1,11 @@
+.closeButton {
+  padding: 0;
+  font-size: 16px;
+  border: none;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+}
