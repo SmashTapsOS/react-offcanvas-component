@@ -6,6 +6,8 @@
 
 Create Off-canvas Sidebars with React and Popmotion's pose
 
+## [**Demo**](https://samabeywickrama.github.io/roc-examples/)
+
 ## Installation
 
 This npm module utilizes `react-pose` for animations.
@@ -18,9 +20,9 @@ This npm module utilizes `react-pose` for animations.
 
 `npm i -S react-pose react-offcanvas-component`
 
-## [**Demo**](https://samabeywickrama.github.io/roc-examples/)
-
 ## Basic usage
+
+Please visit this [Repo](https://github.com/samAbeywickrama/roc-examples) for examples.
 
 ```js
 import ReactOffcanvasComponent from "react-offcanvas-component";
@@ -85,8 +87,6 @@ const openAnimation = {
   width: 200px;
 }
 ```
-
-Please visit this [Repo](https://github.com/samAbeywickrama/roc-examples) for examples.
 
 ## API
 
