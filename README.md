@@ -22,6 +22,70 @@ This npm module utilizes `react-pose` for animations.
 
 ## Basic usage
 
+```js
+import ReactOffcanvasComponent from "react-offcanvas-component";
+import "./Basic.css";
+
+const { Menu, DropdownMenu, CloseButton } = ReactOffcanvasComponent;
+
+const openAnimation = {
+  x: 0,
+  transition: {
+    duration: 200
+  }
+};
+
+<ReactOffcanvasComponent
+  className="wrapper"
+  open={visibility}
+  openAnimation={openAnimation}
+>
+  <CloseButton onClick={handleClick} style={{ right: 10 }}>
+    x
+  </CloseButton>
+  <div className="logo">ROC</div>
+  <Menu>
+    <MenuItem className="menu-item">Home</MenuItem>
+    <MenuItem className="menu-item">Another Menu Item</MenuItem>
+    <MenuItem hasDropdown name="dropdown-b" className="dropdown">
+      Dropdown
+      <DropdownMenu>
+        <MenuItem className="dropdown-item">Abc</MenuItem>
+        <MenuItem className="dropdown-item">Abc</MenuItem>
+        <MenuItem className="dropdown-item">Abc</MenuItem>
+      </DropdownMenu>
+    </MenuItem>
+    <MenuItem className="menu-item">Is n't it awesome</MenuItem>
+  </Menu>
+</ReactOffcanvasComponent>;
+```
+
+```css
+.wrapper {
+  width: 400px;
+  background: #fff;
+  padding: 20px;
+}
+.menu-item {
+  margin-bottom: 20px;
+}
+.dropdown {
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.dropdown-item {
+  padding: 10px;
+  margin-top: 20px;
+  background: #e2e2e2;
+}
+.logo {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e2e2e2;
+  width: 200px;
+}
+```
+
 Please visit this [Repo](https://github.com/samAbeywickrama/roc-examples) for examples.
 
 ## API
