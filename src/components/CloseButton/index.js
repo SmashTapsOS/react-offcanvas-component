@@ -2,9 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 import classNames from "./CloseButton.module.css";
 
-function CloseButton({ children, onClick, style }) {
+function CloseButton({ children, onClick, style, className }) {
   return (
-    <button onClick={onClick} className={classNames.closeButton} style={style}>
+    <button
+      onClick={onClick}
+      className={`${classNames.closeButton} ${className}`}
+      style={style}
+    >
       {children}
     </button>
   );
@@ -16,7 +20,8 @@ CloseButton.propTypes = {
     PropTypes.node
   ]).isRequired,
   onClick: PropTypes.func.isRequired,
-  style: PropTypes.object
+  style: PropTypes.object,
+  className: PropTypes.string
 };
 
 export default CloseButton;

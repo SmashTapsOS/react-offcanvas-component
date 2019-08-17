@@ -22,48 +22,49 @@ Please visit this [Repo](https://github.com/samAbeywickrama/roc-examples) for ex
 
 ## API
 
-### ReactOffcanvasComponent
+#### ReactOffcanvasComponent
 
-| Prop             | Type      | Default                        | Required | Description                                                                   |
-| ---------------- | --------- | ------------------------------ | -------- | ----------------------------------------------------------------------------- |
-| open             | `Boolean` | `false`                        | yes      | Setting values as `true` will Reveal Sidebar and `false` will Hide Sidebar    |
-| className        | `String`  | no                             | no       | Override the styles applied to the component with css                         |
-| style            | `Object`  | no                             | no       | Override the styles applied to the component with inline styles               |
-| openAnimation    | `Object`  | [See Default Animations](#roc) | no       | Override the default open animation                                           |
-| closeAnimation   | `Object`  | [See Default Animations](#roc) | no       | Override the default close animation                                          |
-| overlay          | `Boolean` | false                          | no       | Show / Hide background overlay                                                |
-| overlayClassName | `String`  | no                             | no       | Override the default styles applied to the Overlay component with css classes |
+| Prop             | Type      | Default                                       | Required | Description                                                                   |
+| ---------------- | --------- | --------------------------------------------- | -------- | ----------------------------------------------------------------------------- |
+| open             | `Boolean` | `false`                                       | yes      | Setting values as `true` will Reveal Sidebar and `false` will Hide Sidebar    |
+| className        | `String`  | no                                            | no       | Override the styles applied to the component with css                         |
+| style            | `Object`  | no                                            | no       | Override the styles applied to the component with inline styles               |
+| openAnimation    | `Object`  | [See Default Animations](#default-animations) | no       | Override the default open animation                                           |
+| closeAnimation   | `Object`  | [See Default Animations](#default-animations) | no       | Override the default close animation                                          |
+| overlay          | `Boolean` | false                                         | no       | Show / Hide background overlay                                                |
+| overlayClassName | `String`  | no                                            | no       | Override the default styles applied to the Overlay component with css classes |
 
-### AnimatedPanel
+#### AnimatedPanel
 
-| Prop           | Type     | Default                       | Required | Description                                                     |
-| -------------- | -------- | ----------------------------- | -------- | --------------------------------------------------------------- |
-| className      | `String` | no                            | no       | Override the styles applied to the component with css           |
-| style          | `Object` | no                            | no       | Override the styles applied to the component with inline styles |
-| openAnimation  | `Object` | [See Default Animations](#ap) | no       | Override the default open animation                             |
-| closeAnimation | `Object` | [See Default Animations](#ap) | no       | Override the default close animation                            |
+| Prop           | Type     | Default                                       | Required | Description                                                     |
+| -------------- | -------- | --------------------------------------------- | -------- | --------------------------------------------------------------- |
+| className      | `String` | no                                            | no       | Override the styles applied to the component with css           |
+| style          | `Object` | no                                            | no       | Override the styles applied to the component with inline styles |
+| openAnimation  | `Object` | [See Default Animations](#default-animations) | no       | Override the default open animation                             |
+| closeAnimation | `Object` | [See Default Animations](#default-animations) | no       | Override the default close animation                            |
 
-### CloseButton
+#### CloseButton
 
-| Prop    | Type       | Default | Required | Description                                                     |
-| ------- | ---------- | ------- | -------- | --------------------------------------------------------------- |
-| onClick | `Function` | no      | no       | `function(event: object) => void`                               |
-| style   | `Object`   | no      | no       | Override the styles applied to the component with inline styles |
+| Prop      | Type       | Default | Required | Description                                                     |
+| --------- | ---------- | ------- | -------- | --------------------------------------------------------------- |
+| onClick   | `Function` | no      | no       | `function(event: object) => void`                               |
+| style     | `Object`   | no      | no       | Override the styles applied to the component with inline styles |
+| className | `String`   | no      | no       | Override the styles applied to the component with css           |
 
-### DropdownMenu
+#### DropdownMenu
 
 | Prop      | Type     | Default | Required | Description                                                     |
 | --------- | -------- | ------- | -------- | --------------------------------------------------------------- |
 | style     | `Object` | no      | no       | Override the styles applied to the component with inline styles |
 | className | `String` | no      | no       | Override the styles applied to the component with css           |
 
-### DropdownMenu
+#### DropdownMenu
 
 | Prop      | Type     | Default | Required | Description                                           |
 | --------- | -------- | ------- | -------- | ----------------------------------------------------- |
 | className | `String` | no      | no       | Override the styles applied to the component with css |
 
-### MenuItem
+#### MenuItem
 
 | Prop                  | Type       | Default | Required | Description                                                       |
 | --------------------- | ---------- | ------- | -------- | ----------------------------------------------------------------- |
@@ -75,7 +76,7 @@ Please visit this [Repo](https://github.com/samAbeywickrama/roc-examples) for ex
 
 ### Default Animations
 
-#### [ReactOffcanvasComponent](#roc)
+#### ReactOffcanvasComponent
 
 **Open**
 
@@ -103,7 +104,7 @@ Please visit this [Repo](https://github.com/samAbeywickrama/roc-examples) for ex
 }
 ```
 
-#### [AnimatedPanel](#ap)
+#### AnimatedPanel
 
 **Open**
 
