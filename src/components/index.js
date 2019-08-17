@@ -1,11 +1,11 @@
-import SidebarWrapper from "./SidebarWrapper/SidebarWrapper";
+import ReactOffcanvasComponent from "./ReactOffcanvasComponent/ReactOffcanvasComponent";
 import CloseButton from "./CloseButton";
 import AnimatedPanel from "./AnimatedPanel";
 import Menu, { DropdownMenu } from "./Menu";
 
-SidebarWrapper.AnimatedPanel = AnimatedPanel;
-SidebarWrapper.CloseButton = CloseButton;
-SidebarWrapper.DropdownMenu = DropdownMenu;
-SidebarWrapper.Menu = Menu;
+ReactOffcanvasComponent.AnimatedPanel = AnimatedPanel;
+ReactOffcanvasComponent.CloseButton = CloseButton;
+ReactOffcanvasComponent.DropdownMenu = DropdownMenu;
+ReactOffcanvasComponent.Menu = Menu;
 
-export default SidebarWrapper;
+export default ReactOffcanvasComponent;

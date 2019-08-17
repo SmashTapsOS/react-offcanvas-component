@@ -1,7 +1,7 @@
 import React from "react";
 import posed from "react-pose";
 import PropTypes from "prop-types";
-import classNames from "./SidebarWrapper.module.css";
+import classNames from "./ReactOffcanvasComponent.module.css";
 import Overlay from "../Overlay";
 
 const SidebarWrapperPanel = posed.section({
