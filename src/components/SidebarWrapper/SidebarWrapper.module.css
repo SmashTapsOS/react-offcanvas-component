@@ -2,6 +2,7 @@
   box-sizing: border-box;
   height: 100vh;
   position: fixed;
+  width: 400px;
   top: 0;
   left: 0;
   z-index: 999;
