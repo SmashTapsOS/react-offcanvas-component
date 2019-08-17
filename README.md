@@ -18,7 +18,13 @@ This npm module utilizes `react-pose` for animations.
 
 ## Basic usage
 
-Please visit This [Repo](https://github.com/samAbeywickrama/roc-examples) or [Examples](https://github.com/samAbeywickrama/react-offcanvas-component/tree/master/examples/cra) folder for example usage.
+Please visit this [Repo](https://github.com/samAbeywickrama/roc-examples) for examples.
+
+## API
+
+| Prop         | Type     | Default | Required | Description                         |
+| ------------ | -------- | ------- | -------- | ----------------------------------- |
+| wrapperClass | `String` | none    | no       | className name for wrapper element. |
 
 #### Todo:
 

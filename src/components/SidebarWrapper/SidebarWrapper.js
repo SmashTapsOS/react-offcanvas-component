@@ -21,7 +21,7 @@ const SidebarWrapperPanel = posed.section({
 
 function SidebarWrapper({
   children,
-  open,
+  open = false,
   className,
   style,
   openAnimation,
