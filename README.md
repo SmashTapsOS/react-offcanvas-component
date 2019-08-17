@@ -76,6 +76,8 @@ Please visit this [Repo](https://github.com/samAbeywickrama/roc-examples) for ex
 
 ### Default Animations
 
+I have used [react-pose](https://popmotion.io/pose/) to create the animations. A tons of customization possible via pose api.
+
 #### ReactOffcanvasComponent
 
 **Open**
