@@ -9,14 +9,6 @@ Create Off-canvas Sidebars with React and Popmotion's pose
 
 ## [**Demo**](https://samabeywickrama.github.io/roc-examples/)
 
-## Development
-
-This repo uses `Commitizen` for git commit conventions.
-
-Run `yarn commit` or `npm run commit`
-
-You'll be prompted to fill in any required fields and your commit messages will be formatted according to the standards
-
 ## Installation
 
 This npm module utilizes `react-pose` for animations.
@@ -28,6 +20,14 @@ This npm module utilizes `react-pose` for animations.
 #### npm
 
 `npm i -S react-pose react-offcanvas-component`
+
+## Developments
+
+This repo uses `Commitizen` for git commit conventions.
+
+Run `yarn commit` or `npm run commit`
+
+You'll be prompted to fill in any required fields and your commit messages will be formatted according to the standards
 
 ## Basic usage
 
